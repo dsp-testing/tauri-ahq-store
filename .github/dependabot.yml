@@ -10,7 +10,7 @@ updates:
     directory: "/src-tauri" # Location of package manifests
     target-branch: dev
     schedule:
-      interval: "cromn"
+      interval: "cron"
       cronjob: "0 22 * * *"
   
   - package-ecosystem: "cargo" # See documentation for possible values
