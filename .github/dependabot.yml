@@ -11,39 +11,39 @@ updates:
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 1 * * *"
+      cronjob: "0 11 * * *"
   
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/src-setup" # Location of package manifests
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 2 * * *"
+      cronjob: "0 12 * * *"
 
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/src-service" # Location of package manifests
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 3 * * *"
+      cronjob: "0 13 * * *"
 
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/src-updater" # Location of package manifests
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 4 * * *"
+      cronjob: "0 14 * * *"
 
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/src-ahqstore-types" # Location of package manifests
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 5 * * *"
+      cronjob: "0 15 * * *"
 
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 6 * * *"
+      cronjob: "0 16 * * *"
