@@ -46,4 +46,4 @@ updates:
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 16 * * *"
+      cronjob: "0 19 * * *"
