@@ -11,7 +11,7 @@ updates:
     target-branch: dev
     schedule:
       interval: "cron"
-      cronjob: "0 bla * * *"
+      cronjob: "0 18 * * *"
   
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/src-setup" # Location of package manifests
